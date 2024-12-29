@@ -1,0 +1,125 @@
+<style>
+:root {
+    --primary-color: #b71c1c; /* Rojo oscuro */
+    --secondary-color: #ff8a80; /* Coral */
+    --background-color: #f9f9f9; /* Gris claro */
+    --text-color: #333333; /* Gris oscuro */
+    --card-bg-color: #ffffff; /* Blanco */
+    --button-hover: #9a1515; /* Rojo más oscuro */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.hero button {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Tarjetas */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
