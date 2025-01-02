@@ -81,7 +81,6 @@ Actualmente, incluye funcionalidades para la creación y gestión de personajes 
 #### **Release 1**
 - [x] Creación y gestión básica de personajes con atributos principales.
 - [x] Asociación de personajes con jugadores.
-- [ ] Asociación de personajes con campañas.
 - [ ] Implementación del modelo de atributos asociados a un sistema de juego (`Atributo`).
 - [ ] Asignación de valores de atributos a personajes según el sistema de juego correspondiente (`ValorDeAtributo`).
 
@@ -90,10 +89,10 @@ Actualmente, incluye funcionalidades para la creación y gestión de personajes 
 - Gestión de hechizos aprendidos y preparados.
 
 #### **Release 3**
-- Validaciones y reglas específicas del sistema de juego (por ejemplo, límites de hechizos según nivel/clase).
+- Creación e invitación a campañas.
 
 #### **Release 4**
-- Soporte para otros sistemas de juegos de rol.
+- Validaciones y reglas específicas del sistema de juego (por ejemplo, límites de hechizos según nivel/clase).
 
 ---
 
