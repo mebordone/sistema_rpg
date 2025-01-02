@@ -1,5 +1,7 @@
 ### **README del Proyecto: Sistema RPG Multi-Sistema**
 
+![Diseño de portada](/design/home.png)
+
 ---
 
 ### **Descripción**
